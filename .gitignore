@@ -10,7 +10,7 @@ git-remove-history
 sitemap.xml
 sitemap.xml.gz
 .htaccess
-Thumbs.db
+
 tmp/*
 index.php
 *.bak
@@ -18,15 +18,33 @@ index.php
 *.swp
 *.log
 *.txt
+
+##Images
 *.jpg
 *.gif
 *.png
 *.bmp
+
+##FONTS
 *.woff
 *.ttf
 *.svg
 *.eot
 
+sitemap.xml
+sitemap.xml.gz
+
+*.Cache
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
 ################
 ##Wordpress site
@@ -55,3 +73,39 @@ wp-content/plugins/wp-maintenance-mode/
 wp-content/plugins/ultimate-cms/
 
 !wp-content/plugins/akismet/*
+
+###############
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.log
+*.scc
+
