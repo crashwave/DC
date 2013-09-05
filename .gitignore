@@ -19,6 +19,10 @@ index.php
 *.log
 *.txt
 
+*.zip
+*.rar
+*.7z
+
 ##Images
 *.jpg
 *.gif
@@ -64,6 +68,8 @@ wp-content/backups/
 ##Wordpress Plugins with Repos
 ################
 wp-content/plugins/*
+!wp-content/plugins/akismet/
+
 wp-content/plugins/better-wp-security/
 wp-content/plugins/buddypress/
 wp-content/plugins/contact-form-7/
@@ -72,7 +78,7 @@ wp-content/plugins/login-security-solution/
 wp-content/plugins/wp-maintenance-mode/
 wp-content/plugins/ultimate-cms/
 
-!wp-content/plugins/akismet/*
+
 
 ###############
 
