@@ -1,4 +1,39 @@
+###Temp
 git-remove-history
+
+
+################
+##Wordpress site
+################
+wp-config.php
+wp-content/uploads/
+wp-content/blogs.dir/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/cache/
+wp-content/cache/supercache/*
+wp-content/backups/
+
+################
+##Wordpress Plugins with Repos
+################
+##ignore ALL plugins directory .../*
+wp-content/plugins/*
+##Except !.../
+!wp-content/plugins/akismet/
+
+wp-content/plugins/better-wp-security/
+wp-content/plugins/buddypress/
+wp-content/plugins/contact-form-7/
+wp-content/plugins/geo-mashup/
+wp-content/plugins/login-security-solution/
+wp-content/plugins/wp-maintenance-mode/
+wp-content/plugins/ultimate-cms/
+
+
+
 #################
 ##GENERAL
 #################
@@ -49,37 +84,6 @@ Desktop.ini
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
-
-################
-##Wordpress site
-################
-wp-config.php
-wp-content/uploads/
-wp-content/blogs.dir/
-wp-content/upgrade/
-wp-content/backup-db/
-wp-content/advanced-cache.php
-wp-content/wp-cache-config.php
-wp-content/cache/
-wp-content/cache/supercache/*
-wp-content/backups/
-
-################
-##Wordpress Plugins with Repos
-################
-wp-content/plugins/*
-!wp-content/plugins/akismet/
-
-wp-content/plugins/better-wp-security/
-wp-content/plugins/buddypress/
-wp-content/plugins/contact-form-7/
-wp-content/plugins/geo-mashup/
-wp-content/plugins/login-security-solution/
-wp-content/plugins/wp-maintenance-mode/
-wp-content/plugins/ultimate-cms/
-
-
-
 ###############
 
 # User-specific files
