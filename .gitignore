@@ -24,6 +24,13 @@ wp-content/plugins/*
 ##Except !.../
 !wp-content/plugins/akismet/
 
+##ignore ALL themes directory .../*
+wp-content/themes/*
+##Except !.../
+!wp-content/themes/twentythirteen/
+!wp-content/themes/twentytwelve/
+
+
 wp-content/plugins/better-wp-security/
 wp-content/plugins/buddypress/
 wp-content/plugins/contact-form-7/
